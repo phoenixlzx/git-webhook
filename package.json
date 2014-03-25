@@ -1,0 +1,11 @@
+{
+  "name": "git-webhook",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node hook.js"
+  },
+  "dependencies": {
+    "gith": "*"
+  }
+}
