@@ -4,7 +4,7 @@ var gith = require('gith').create(config.bind_port);
 var exec = require('child_process').exec;
 
 gith({
-    repo: 'fideloper/example'
+    repo: config.repo_name
 }).on('all', function(payload) {
     // console.log(payload)
     exec('cd ' + config.repo_location + ' && git pull ' + config.repo_remote, function(err, stdout, stderr) {
