@@ -6,7 +6,7 @@ module.exports = {
     repo_name: 'yourgithubid/example',
     
     // Remove repo & branch
-    repo_remote: 'origin master'
+    repo_remote: 'origin master',
     
     // repo location
     repo_location: '/var/www/some_site',
