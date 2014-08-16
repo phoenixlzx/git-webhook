@@ -5,7 +5,7 @@ module.exports = {
     // Git repo
     repo_name: 'yourgithubid/example',
     
-    // Remove repo & branch
+    // Remote repo & branch
     repo_remote: 'origin master',
     
     // repo location
